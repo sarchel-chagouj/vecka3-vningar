@@ -160,6 +160,34 @@
             // Skriver ut chatbotens svar
             Console.WriteLine("Chatbot: " + response);
 
+            // ÖVNING 4 - MINIRÄKNARE
+
+            // Frågar användaren efter det första talet
+            Console.WriteLine("Skriv första talet:");
+            double number1 = Convert.ToDouble(Console.ReadLine());
+
+            // Frågar användaren efter det andra talet
+            Console.WriteLine("Skriv andra talet:");
+            double number2 = Convert.ToDouble(Console.ReadLine());
+
+            // Räknar ut addition
+            double addition = number1 + number2;
+
+            // Räknar ut subtraktion
+            double subtraction = number1 - number2;
+
+            // Räknar ut multiplikation
+            double multiplication = number1 * number2;
+
+            // Räknar ut division
+            double division = number1 / number2;
+
+            // Visar resultaten
+            Console.WriteLine("Addition: " + addition);
+            Console.WriteLine("Subtraktion: " + subtraction);
+            Console.WriteLine("Multiplikation: " + multiplication);
+            Console.WriteLine("Division: " + division);
+
 
         }
     }
